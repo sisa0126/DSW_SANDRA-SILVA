@@ -1,0 +1,40 @@
+header{
+    display: flex;
+    flex-direction: row;
+    background-color: #F0A500;
+    padding: 20px;
+    color: aliceblue;
+    text-align: center;
+}
+nav{
+    background-color: #334756;
+    color: aliceblue;
+    text-align: center;
+}
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+article{
+    background-color: #082032;
+    color: aliceblue;
+    grid-column:1/4 ;
+
+}
+aside{
+    background-color: #F0A500;
+    color: aliceblue;
+    text-align: center;
+    grid-column:4/5 ;
+}
+footer{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
